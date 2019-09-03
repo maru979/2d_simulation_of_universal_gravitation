@@ -35,11 +35,11 @@ onmousedown="startCreateParticles(event)" onmouseup="stopCreateParticles(event)
 	-->
 	<div class="demo-container" id="demo-container">
 		<span></span>
-		<button onclick="createParticles()" style="margin-bottom : 10px">Create particles grid</button>
-		<button onclick="deletePlanet()">Delete nearest planet</button>
-		<button onclick="addPlanetEm()">Create plantery emitter</button>
-		Pause/Run planetary motion<input id="check1" type="checkbox" checked>
-		Emitter launch speed<input id="textField1" type="text" value="0" align="right" size="13"/><br>
+		<button onclick="createParticles()" style="margin-bottom : 10px">Создать сетку частиц</button>
+		<button onclick="deletePlanet()">Удалить ближайшую к солнцу планету</button>
+		<button onclick="addPlanetEm()">Создать источник частиц</button>
+		Остановить/Запустить движение плнет <input id="check1" type="checkbox" checked>
+		Скорость запуска частиц <input id="textField1" type="text" value="0" align="right" size="13"/><br>
 		<canvas class="canvas-main" onmousemove="mouseMoved(event)" onmousedown="addEmitter(event)" onmouseup="addEmitterFinish(event)"></canvas>
 	</div>
 		
