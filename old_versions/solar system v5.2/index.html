@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body, html {
+			margin: 0;
+			padding: 0;
+		}
+		canvas {
+			background-color: #000;
+		}
+	</style>
+</head>
+<body>
+	<!--<button onclick="draw()">Start</button>
+	<button onclick="stopDraw()">Stop</button>
+	<canvas id="a"></canvas> 
+onmousedown="startCreateParticles(event)" onmouseup="stopCreateParticles(event)
+	-->
+	<span></span>
+	<button onclick="createParticles()">Create particles grid</button>
+	<button onclick="deletePlanet()">Delete nearest planet</button>
+	<button onclick="addPlanetEm()">Create plantery emitter</button>
+	Pause/Run planetary motion<input id="check1" type="checkbox" checked>
+	Emitter launch speed<input id="textField1" type="text" value="0" align="right" size="13"/><br>
+	<canvas onmousemove="mouseMoved(event)" onmousedown="addEmitter(event)" onmouseup="addEmitterFinish(event)"></canvas>
+	<script type="text/javascript" src="mainscript.js"></script> 
+</body>
+</html>
+

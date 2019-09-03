@@ -1,0 +1,40 @@
+html, body {
+	margin:0;
+	padding:0;
+	background: #CEECF5;
+}
+.canvas-main {
+	/*/height: 800px;*/
+}
+.content {
+	font-size: 14pt;
+	font-style: 'times new roman';
+	padding: 30px
+}
+
+p {
+	margin-top: 10px;
+}
+
+p.important {
+	border-left: 10px solid #f79321;
+	padding-left: 10px;
+}
+
+img	{
+	/*margin-left: 50%;*/
+}
+
+.demo-container {
+	margin-top: 10px; 
+    margin-bottom: 10px;
+    font-size: 12pt;
+	text-align: center;
+    background: #CEECF5;
+}
+.main-content {
+	font-size: 30pt;
+	text-align: center;
+}
+
+
